@@ -1,3 +1,20 @@
+/**
+ * StoreManager provides a lightweight reactive state management system.
+ *
+ * It allows storing shared application data, updating it, and notifying subscribers
+ * (e.g., UI components or other logic) when the data changes.
+ *
+ * Example usage:
+ * 
+ * AppStore.subscribe(data => {
+ *   console.log('Updated data:', data);
+ * });
+ * 
+ * AppStore.updateData({ user: 'Alice' });
+ * 
+ * const state = AppStore.getData();
+ * console.log(state.user); // "Alice"
+ */
 class StoreManager {
     constructor() {
         this.data = {};
