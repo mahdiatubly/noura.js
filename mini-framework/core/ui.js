@@ -1,3 +1,19 @@
+/**
+ * ElementBuilder provides utility methods to declaratively create and render DOM elements.
+ *
+ * Methods:
+ * - createNode({ tag, attrs, children }): Recursively creates an HTML element with attributes, event listeners, and child nodes.
+ * - display(node, container): Replaces the contents of a container with the provided DOM node.
+ *
+ * Usage Example:
+ * const button = UI.createNode({
+ *   tag: 'button',
+ *   attrs: { onClick: () => alert('Clicked!'), className: 'btn' },
+ *   children: 'Click Me'
+ * });
+ *
+ * UI.display(button, document.getElementById('app'));
+ */
 class ElementBuilder {
     createNode({ tag, attrs = {}, children = [] }) {
         const node = document.createElement(tag);
