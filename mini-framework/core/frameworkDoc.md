@@ -197,6 +197,6 @@ Use freely in personal or commercial projects.
 We welcome your suggestions, ideas, and bug reports!
 
 Want to contribute?
-Open an issue or pull request on GitHub: [github.com/yourusername/noura.js](https://github.com/mahdiatubly/noura.js)
+Open an issue or pull request on GitHub: [github.com/mahdiatubly/noura.js](https://github.com/mahdiatubly/noura.js)
 
 ---
